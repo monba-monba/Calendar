@@ -1,0 +1,49 @@
+<!-- @author 檀野 良太 -->
+<!-- 192.168.1.199 -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="index.css">
+<script type="text/javascript" src="index.js"></script>
+</head>
+<title>年数入力画面</title>
+</head>
+<body>
+<div>
+<img src="headder.png">
+
+<h1>年数を入力してください</h1>
+<form method="post" action="calender"
+ name="year" onSubmit="return check()">
+
+<input type="number" name="year" min="-99999999" max="99999999">
+<!-- <input type="submit" value="送る"> -->
+
+
+<h1>表示形式</h1>
+
+	<input type="radio" name="select" value="0" required>4月始め
+    <input type="radio" name="select" value="1">1月始め
+
+<p><input type="submit" value="出力"></p>
+
+</form>
+<br>
+<h3>
+※カレンダーを印刷する際は、Internet Explorer11もしくはGoogle Chromeをご利用ください。
+</h3>
+<h3>
+また、出力する前に下記の画像をクリックして、背景色を反映する手順をご確認してからご利用ください
+</h3>
+<h4>Internet Explorer11をご利用の場合は下記の画像をクリック</h4>
+<a href="IE_explation.png" target="_blank" >
+<img src="IE_explation.png"   width="128" height="72">
+</a>
+<h4>Google Chromeをご利用の場合は下記の画像をクリック</h4>
+<a href="GC_explation.png" target="_blank" >
+<img src="GC_explation.png"  width="128" height="72">
+</a>
+</div>
+</body>
+</html>

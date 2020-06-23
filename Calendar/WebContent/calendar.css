@@ -1,0 +1,89 @@
+/*  @author 檀野 良太  */
+@charset "utf-8";
+body {font-size:95%;
+font-family: "ＭＳ ゴシック",sans-serif;
+              color:black;
+
+}
+.sunday{
+              color:#FF0000;
+}
+.saturday{
+              color:#0000FF;
+}
+.anothermonth{
+              color:gray;
+}
+
+/* #TableBlank{
+              margin-right:30px;
+} */
+/*
+固定位置
+
+1列目 left 指定しない
+2列目 left 257px
+3列目 left 506px
+4列目 left 755px
+
+1行目 top 指定しない
+2行目 top 210px
+3行目 top 412px
+*/
+
+.first{
+   relative;
+}
+.second{
+   position: absolute;
+   left: 257px;
+}
+.third{
+   position: absolute;
+   left: 506px;
+}
+.fourth{
+   position: absolute;
+   left: 755px;
+}
+.fifth{
+  position: absolute;
+   top: 210px;
+}
+.sixth{
+   position: absolute;
+   top: 210px;
+   left: 257px;
+}
+.seventh{
+   position: absolute;
+   top: 210px;
+   left: 506px;
+}
+.eighth{
+   position: absolute;
+   top: 210px;
+   left: 755px;
+}
+.ninth{
+   position: absolute;
+   top: 412px;
+}
+.tenth{
+   position: absolute;
+   top: 412px;
+   left: 257px;
+}
+.eleventh{
+   position: absolute;
+   top: 412px;
+   left: 506px;
+}
+.twelfth{
+   position: absolute;
+   top: 412px;
+   left: 755px;
+}
+
+
+/* style="margin-right:20px" */

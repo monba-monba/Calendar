@@ -1,0 +1,10 @@
+/* @author 檀野 良太  */
+@charset "utf-8";
+body {font-size:95%;
+font-family: "ＭＳ ゴシック",sans-serif;
+              background-color:azure;
+              color:black;
+}
+div {
+	text-align:center;
+}
